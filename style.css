@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.header {
+  text-align: center;
+  padding: 4.4rem 0 3rem 0;
+}
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1.5rem;
+}
+.header p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 25rem;
+}
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-top: 1.8rem;
+}
+.card h3 {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.5rem;
+}
+.card p {
+  font-size: 1rem;
+  color: hsl(229, 6%, 66%);
+}
+.card.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  margin: 0;
+}
+.card.team--builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  margin: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 1.1rem;
+  }
+  .header h1,
+  .header h2 {
+    font-size: 1.5rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    margin: 1.7rem;
+  }
+}
