@@ -87,6 +87,8 @@ body {
     flex-direction: column;
   }
   .card {
-    margin: 1.7rem;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
