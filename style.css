@@ -30,6 +30,7 @@ body {
   font-weight: 400;
   color: hsl(229, 6%, 66%);
   margin: 0 auto;
+  max-width: 550px;
 }
 .container {
   display: flex;
